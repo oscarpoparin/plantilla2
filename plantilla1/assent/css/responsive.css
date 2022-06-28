@@ -1,0 +1,112 @@
+@media (max-width: 700px) {
+
+    /*HEADER*/
+
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .persona {
+        width: 90px;
+        height: 90px;
+    }
+
+    .text-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+
+    .carrera {
+        text-align: center;
+        font-size: .70rem;
+        font-weight: 200;
+    }
+
+    /*Nav*/
+
+    .nav {
+        margin-top: 15px;
+        border-top: 3px solid #ccc;
+        height: 250px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .elemt1,
+    .elemt2,
+    .elemt3,
+    .elemt4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .svg {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .elemt1 a,
+    .elemt2 a,
+    .elemt3 a,
+    .elemt4 a {
+        /*opacity: 0;*/
+        position: relative;
+        font-size: .9rem;
+        font-weight: 200;
+        transition: 0.5s;
+        text-align: center;
+
+    }
+
+    .elemt1 a:hover,
+    .elemt2 a:hover,
+    .elemt3 a:hover,
+    .elemt4 a:hover {
+        font-size: 1.2rem;
+        transition: 0.5s;
+        color: #fff;
+    }
+
+    /*Redes Sociales*/
+
+    .bottom {
+        border-top: 3px solid #ccc;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .items {
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    .icons-social .s-icon1,
+    .icons-social .s-icon2,
+    .icons-social .s-icon3,
+    .icons-social .s-icon4,
+    .icons-social .s-icon5,
+    .icons-social .s-icon6 {
+        font-size: 20px;
+
+    }
+
+}
